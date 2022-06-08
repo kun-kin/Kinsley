@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinsley</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="./lib/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header-main">
+                <div class="container">
+                    <div class="row">
+                        <a href="./index.html" class="logo">
+                            <img src="./images/logo.svg" alt="">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <a href="./index.html" class="menu-link">home</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./about.html" class="menu-link">about</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./rooms.html" class="menu-link">rooms</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="./blogs.html" class="menu-link">blog</a>
+                                </li>
+                                <li class="menu-item active">
+                                    <a href="#" class="menu-link">page <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="./gallery.html">gallery</a>
+                                        </li>
+                                        <li>
+                                            <a href="./service.html">service</a>
+                                        </li>
+                                        <li>
+                                            <a href="./restaurant.html">restaurant</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./contact.html" class="menu-link">contact</a>
+                                </li>
+                            </ul>
+                            <a href="" class="btn"><i class="fa-regular fa-bookmark"></i>book now </a>
+                        </nav>
+
+
+                        <div class="link-btn">
+                            <a href="" class="btn"><i class="fa-regular fa-bookmark"></i>book now </a>
+                            <div id="header">
+                                <a href="#menu" id="menu-toggle">
+                                    <span>
+                                        <!-- <i class="fa-solid fa-bars"></i> -->
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="banner-simple transition-zizacbottom mb-100">
+                <img src="./images/palm.svg" alt="" class="deco-left">
+                <img src="./images/palm.svg" alt="" class="deco-right">
+                <div class="container">
+                    <div class="section-title">
+                        <h1>
+                            Photo Gallery
+                        </h1>
+                        <p class="text">
+                            Consectetur adipisicing elit. Nihil, illum voluptate eveniet ex fugit ea delectus, sed voluptatem. Laborum accusantium libero commodi id officiis itaque esse adipisci, necessitatibus asperiores, illo odio.
+                        </p>
+                        <ul class="breadcrumbs">
+                            <li>
+                                <a href="./index.html">home</a>
+                            </li>
+                            <li class="lst-active">
+                                <a href="#">gallery</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery pb-100">
+                <img src="./images/palm.svg" alt="" class="deco-left">
+                <div class="container">
+                    <div class="filter-style">
+                        <a href="" class="work-category current">
+                            all photos
+                        </a>
+                        <a href="" class="work-category">
+                            beach
+                        </a>
+                        <a href="" class="work-category">
+                            hotel
+                        </a>
+                        <a href="" class="work-category">
+                            restaurant
+                        </a>
+                    </div>
+
+                    <div class="gallery-grid">
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-1.jpg" data-fancybox="gallery">
+                                <img src="./images/about-1.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-v1.jpg" data-fancybox="gallery">
+                                <img src="./images/about-v1.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-2.jpg" data-fancybox="gallery">
+                                <img src="./images/about-2.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-v2.jpg" data-fancybox="gallery">
+                                <img src="./images/about-v2.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-3.jpg" data-fancybox="gallery">
+                                <img src="./images/about-3.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-v3.jpg" data-fancybox="gallery">
+                                <img src="./images/about-v3.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-4.jpg" data-fancybox="gallery">
+                                <img src="./images/about-4.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-7.jpg" data-fancybox="gallery">
+                                <img src="./images/about-7.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-v4.jpg" data-fancybox="gallery">
+                                <img src="./images/about-v4.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-5.jpg" data-fancybox="gallery">
+                                <img src="./images/about-5.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-v5.jpg" data-fancybox="gallery">
+                                <img src="./images/about-v5.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="gallery-grid__item reveal">
+                            <a href="./images/about-8.jpg" data-fancybox="gallery">
+                                <img src="./images/about-8.jpg" alt="">
+                                <span class="zoom">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="rooms transition-zizactop pb-100">
+                <div class="container">
+                    <div class="section-title reveal">
+                        <h2>
+                            Our Best Rooms
+                        </h2>
+                        <p>
+                            Consectetur adipisicing elit. Nihil, illum voluptate eveniet ex fugit ea delectus, sed voluptatem. Laborum accusantium libero commodi id officiis itaque esse adipisci, necessitatibus asperiores, illo odio.
+                        </p>
+                        <a href="./rooms.html" class="btn">
+                            all rooms
+                        </a>
+                    </div>
+
+                    <div class="rooms-slider owl-carousel owl-theme reveal">
+                        <div class="room-item">
+                            <div class="inner">
+                                <figure class="image">
+                                    <img src="./images/room-1.jpg" alt="">
+                                </figure>
+                                <ul class="meta">
+                                    <li class="meta-item meta-adult">
+                                        <span class="meta-title">
+                                            adult:
+                                        </span>
+                                        <span class="meta-value">
+                                            2
+                                        </span>
+                                    </li>
+                                    <li class="meta-item meta-size">
+                                        <span class="meta-title">
+                                            size:
+                                        </span>
+                                        <span class="meta-value">           35ft²
+                                        </span>
+                                    </li>
+                                </ul>
+                                <h2 class="entry-title">
+                                    <a href="./room-details.html">
+                                        Business Class Room
+                                    </a>
+                                </h2>
+                                <p class="text">
+                                    Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur
+                                    cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit.
+                                </p>
+                                <p class="price">
+                                    <span class="price-value">
+                                        €59
+                                    </span>
+                                    <span class="unit">
+                                        per night
+                                    </span>
+                                </p>
+                                <div class="book-btn">
+                                    <a href="" class="btn">
+                                        <i class="fa-regular fa-bookmark"></i>book
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room-item">
+                            <div class="inner">
+                                <figure class="image">
+                                    <img src="./images/room-2.jpg" alt="">
+                                </figure>
+                                <ul class="meta">
+                                    <li class="meta-item meta-adult">
+                                        <span class="meta-title">
+                                            adult:
+                                        </span>
+                                        <span class="meta-value">
+                                            2
+                                        </span>
+                                    </li>
+                                    <li class="meta-item meta-size">
+                                        <span class="meta-title">
+                                            size:
+                                        </span>
+                                        <span class="meta-value">           35ft²
+                                        </span>
+                                    </li>
+                                </ul>
+                                <h2 class="entry-title">
+                                    <a href="./room-details.html">
+                                        Business Class Room
+                                    </a>
+                                </h2>
+                                <p class="text">
+                                    Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur
+                                    cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit.
+                                </p>
+                                <p class="price">
+                                    <span class="price-value">
+                                        €59
+                                    </span>
+                                    <span class="unit">
+                                        per night
+                                    </span>
+                                </p>
+                                <div class="book-btn">
+                                    <a href="" class="btn">
+                                        <i class="fa-regular fa-bookmark"></i>book
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room-item">
+                            <div class="inner">
+                                <figure class="image">
+                                    <img src="./images/room-3.jpg" alt="">
+                                </figure>
+                                <ul class="meta">
+                                    <li class="meta-item meta-adult">
+                                        <span class="meta-title">
+                                            adult:
+                                        </span>
+                                        <span class="meta-value">
+                                            2
+                                        </span>
+                                    </li>
+                                    <li class="meta-item meta-size">
+                                        <span class="meta-title">
+                                            size:
+                                        </span>
+                                        <span class="meta-value">           35ft²
+                                        </span>
+                                    </li>
+                                </ul>
+                                <h2 class="entry-title">
+                                    <a href="./room-details.html">
+                                        Business Class Room
+                                    </a>
+                                </h2>
+                                <p class="text">
+                                    Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur
+                                    cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit.
+                                </p>
+                                <p class="price">
+                                    <span class="price-value">
+                                        €59
+                                    </span>
+                                    <span class="unit">
+                                        per night
+                                    </span>
+                                </p>
+                                <div class="book-btn">
+                                    <a href="" class="btn">
+                                        <i class="fa-regular fa-bookmark"></i>book
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room-item">
+                            <div class="inner">
+                                <figure class="image">
+                                    <img src="./images/room-4.jpg" alt="">
+                                </figure>
+                                <ul class="meta">
+                                    <li class="meta-item meta-adult">
+                                        <span class="meta-title">
+                                            adult:
+                                        </span>
+                                        <span class="meta-value">
+                                            2
+                                        </span>
+                                    </li>
+                                    <li class="meta-item meta-size">
+                                        <span class="meta-title">
+                                            size:
+                                        </span>
+                                        <span class="meta-value">           35ft²
+                                        </span>
+                                    </li>
+                                </ul>
+                                <h2 class="entry-title">
+                                    <a href="./room-details.html">
+                                        Business Class Room
+                                    </a>
+                                </h2>
+                                <p class="text">
+                                    Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur
+                                    cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit.
+                                </p>
+                                <p class="price">
+                                    <span class="price-value">
+                                        €59
+                                    </span>
+                                    <span class="unit">
+                                        per night
+                                    </span>
+                                </p>
+                                <div class="book-btn">
+                                    <a href="" class="btn">
+                                        <i class="fa-regular fa-bookmark"></i>book
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room-item">
+                            <div class="inner">
+                                <figure class="image">
+                                    <img src="./images/room-5.jpg" alt="">
+                                </figure>
+                                <ul class="meta">
+                                    <li class="meta-item meta-adult">
+                                        <span class="meta-title">
+                                            adult:
+                                        </span>
+                                        <span class="meta-value">
+                                            2
+                                        </span>
+                                    </li>
+                                    <li class="meta-item meta-size">
+                                        <span class="meta-title">
+                                            size:
+                                        </span>
+                                        <span class="meta-value">           35ft²
+                                        </span>
+                                    </li>
+                                </ul>
+                                <h2 class="entry-title">
+                                    <a href="./room-details.html">
+                                        Business Class Room
+                                    </a>
+                                </h2>
+                                <p class="text">
+                                    Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur
+                                    cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit.
+                                </p>
+                                <p class="price">
+                                    <span class="price-value">
+                                        €59
+                                    </span>
+                                    <span class="unit">
+                                        per night
+                                    </span>
+                                </p>
+                                <div class="book-btn">
+                                    <a href="" class="btn">
+                                        <i class="fa-regular fa-bookmark"></i>book
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room-item">
+                            <div class="inner">
+                                <figure class="image">
+                                    <img src="./images/room-6.jpg" alt="">
+                                </figure>
+                                <ul class="meta">
+                                    <li class="meta-item meta-adult">
+                                        <span class="meta-title">
+                                            adult:
+                                        </span>
+                                        <span class="meta-value">
+                                            2
+                                        </span>
+                                    </li>
+                                    <li class="meta-item meta-size">
+                                        <span class="meta-title">
+                                            size:
+                                        </span>
+                                        <span class="meta-value">           35ft²
+                                        </span>
+                                    </li>
+                                </ul>
+                                <h2 class="entry-title">
+                                    <a href="./room-details.html">
+                                        Business Class Room
+                                    </a>
+                                </h2>
+                                <p class="text">
+                                    Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur
+                                    cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit.
+                                </p>
+                                <p class="price">
+                                    <span class="price-value">
+                                        €59
+                                    </span>
+                                    <span class="unit">
+                                        per night
+                                    </span>
+                                </p>
+                                <div class="book-btn">
+                                    <a href="" class="btn">
+                                        <i class="fa-regular fa-bookmark"></i>book
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room-item">
+                            <div class="inner">
+                                <figure class="image">
+                                    <img src="./images/room-7.jpg" alt="">
+                                </figure>
+                                <ul class="meta">
+                                    <li class="meta-item meta-adult">
+                                        <span class="meta-title">
+                                            adult:
+                                        </span>
+                                        <span class="meta-value">
+                                            2
+                                        </span>
+                                    </li>
+                                    <li class="meta-item meta-size">
+                                        <span class="meta-title">
+                                            size:
+                                        </span>
+                                        <span class="meta-value">           35ft²
+                                        </span>
+                                    </li>
+                                </ul>
+                                <h2 class="entry-title">
+                                    <a href="./room-details.html">
+                                        Business Class Room
+                                    </a>
+                                </h2>
+                                <p class="text">
+                                    Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur
+                                    cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit.
+                                </p>
+                                <p class="price">
+                                    <span class="price-value">
+                                        €59
+                                    </span>
+                                    <span class="unit">
+                                        per night
+                                    </span>
+                                </p>
+                                <div class="book-btn">
+                                    <a href="" class="btn">
+                                        <i class="fa-regular fa-bookmark"></i>book
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room-item">
+                            <div class="inner">
+                                <figure class="image">
+                                    <img src="./images/room-8.jpg" alt="">
+                                </figure>
+                                <ul class="meta">
+                                    <li class="meta-item meta-adult">
+                                        <span class="meta-title">
+                                            adult:
+                                        </span>
+                                        <span class="meta-value">
+                                            2
+                                        </span>
+                                    </li>
+                                    <li class="meta-item meta-size">
+                                        <span class="meta-title">
+                                            size:
+                                        </span>
+                                        <span class="meta-value">           35ft²
+                                        </span>
+                                    </li>
+                                </ul>
+                                <h2 class="entry-title">
+                                    <a href="./room-details.html">
+                                        Business Class Room
+                                    </a>
+                                </h2>
+                                <p class="text">
+                                    Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur
+                                    cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit.
+                                </p>
+                                <p class="price">
+                                    <span class="price-value">
+                                        €59
+                                    </span>
+                                    <span class="unit">
+                                        per night
+                                    </span>
+                                </p>
+                                <div class="book-btn">
+                                    <a href="" class="btn">
+                                        <i class="fa-regular fa-bookmark"></i>book
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="feedback transition-mid pb-100">
+                <div class="container">
+                    <div class="section-title reveal">
+                        <h2>
+                            Feedback from our Guests
+                        </h2>
+                        <p>
+                            Consectetur adipisicing elit. Nihil, illum voluptate eveniet ex fugit ea delectus, sed voluptatem. Laborum accusantium libero commodi id officiis itaque esse adipisci, necessitatibus asperiores, illo odio.
+                        </p>
+                    </div>
+
+
+
+                </div>
+                <div class="feedback-slider owl-carousel owl-theme reveal">
+                    <div class="feedback-item">
+                        <div class="image">
+                            <img src="./images/faces-3-scaled.jpg" alt="">
+                        </div>
+                        <div class="desc">
+                            <h3>
+                                Viktoria Freeman
+                            </h3>
+                            <span class="subtitle">
+                                From Ukraine
+                            </span>
+                            <blockquote>
+                                <ul class="star">
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                </ul>
+                                <span>
+                                   Dequi folores dolor sit amet, consectetur adipisicing elit. Nesciunt illo, delectus totam! Delectus illo magnam voluptatem a tempora id vitae dolor, quis natus iusto molestiae ab nam error vero possimus ullam facilis porro veritatis?
+                                </span>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="image">
+                            <img src="./images/faces-3-scaled.jpg" alt="">
+                        </div>
+                        <div class="desc">
+                            <h3>
+                                Viktoria Freeman
+                            </h3>
+                            <span class="subtitle">
+                                From Ukraine
+                            </span>
+                            <blockquote>
+                                <ul class="star">
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                </ul>
+                                <span>
+                                   Dequi folores dolor sit amet, consectetur adipisicing elit. Nesciunt illo, delectus totam! Delectus illo magnam voluptatem a tempora id vitae dolor, quis natus iusto molestiae ab nam error vero possimus ullam facilis porro veritatis?
+                                </span>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="image">
+                            <img src="./images/faces-3-scaled.jpg" alt="">
+                        </div>
+                        <div class="desc">
+                            <h3>
+                                Viktoria Freeman
+                            </h3>
+                            <span class="subtitle">
+                                From Ukraine
+                            </span>
+                            <blockquote>
+                                <ul class="star">
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                    </li>
+                                </ul>
+                                <span>
+                                   Dequi folores dolor sit amet, consectetur adipisicing elit. Nesciunt illo, delectus totam! Delectus illo magnam voluptatem a tempora id vitae dolor, quis natus iusto molestiae ab nam error vero possimus ullam facilis porro veritatis?
+                                </span>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer-main pd-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="inner">
+                                <div class="logo-footer">
+                                    <img src="./images/logo-w.svg" alt="">
+                                </div>
+                                <p>
+                                    Sequi dolores ratione eos eveniet provident soluta. Omnis nesciunt sit eos at, eius voluptatum rem corporis. Doloremque labore assumenda explicabo velit illo, soluta, inventore hic.
+                                </p>
+                                <div class="social">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2">
+                            <div class="inner">
+                                <h4>
+                                    menu
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="./index.html">
+                                            home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./about.html">
+                                            about us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./rooms.html">
+                                            rooms
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./blog.html">
+                                            blog
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./contact.html">
+                                            contact us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2">
+                            <div class="inner">
+                                <h4>
+                                    meet kinsley
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="./gallery.html">
+                                            gallery
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./restaurant.html">
+                                            restaurant
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="inner">
+                                <h4>
+                                    instagram
+                                </h4>
+                                <div class="list-insta">
+                                    <a href="">
+                                        <img src="./images/about-1.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="./images/about-2.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="./images/about-3.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="./images/about-4.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="./images/about-5.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+    <a href="" id="backtotop"><i class="fa-solid fa-arrow-up-long"></i></a>
+
+    <script src="./lib/js/jquery-3.6.0.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="./lib/js/style.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+section.about-report {
+    .quote-author {
+        .photo-iframe {
+            box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+            padding: 5% 0 0 10%;
+            width: 155%;
+            border: solid 10px #fff;
+            border-radius: 10px;
+            position: relative;
+            &::before {
+                content: '';
+                width: 500px;
+                height: 10px;
+                background-color: #fff;
+                position: absolute;
+                z-index: 888;
+                bottom: calc(27% - 5px);
+                left: -500px;
+            }
+            &::after {
+                content: '';
+                width: 150%;
+                height: 10px;
+                background-color: #fff;
+                position: absolute;
+                z-index: 9;
+                border-radius: 0 20px 20px 0;
+                bottom: calc(27% - 5px);
+                right: -150%;
+            }
+            img {
+                width: 60%;
+            }
+        }
+        blockquote {
+            text-align: left;
+            font-size: 18px;
+            @media(max-width: 991px) {
+                padding: 30px;
+                margin-bottom: 0;
+                border-radius: 10px 10px 0 0;
+            }
+        }
+        .quote-bottom {
+            position: relative;
+            z-index: 99;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 160px;
+                -webkit-transform: rotate(-5deg) translateY(-5px);
+                transform: rotate(-5deg) translateY(-5px);
+                margin-right: 30px;
+                opacity: .7;
+            }
+        }
+    }
+}
+
+section.video-about {
+    .about-card {
+        box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+        border: solid 10px #fff;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: #fff;
+        .about-text {
+            padding: 60px;
+            width: 100%;
+            h2 {
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 30px;
+            }
+            @media(max-width:991px) {
+                padding: 20px;
+            }
+        }
+        .video-frame {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-bottom: 70%;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+            .play-btn {
+                color: #fff;
+                padding-left: 4px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: -30px;
+                margin-top: -30px;
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                background-color: #eba744;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                animation: wave 1s ease-in-out infinite;
+                transition: .4s ease-in-out;
+                @keyframes wave {
+                    0% {
+                        box-shadow: 0 0 0 0 rgba(255, 255, 255, .2)
+                    }
+                    100% {
+                        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0)
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.team {
+    .team-card {
+        margin-bottom: 20px;
+        box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        .photo-iframe {
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            padding-bottom: 120%;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+                transition: .4s ease-in-out;
+            }
+        }
+        .member-desc {
+            padding: 30px 20px 20px;
+            h3 {
+                margin-bottom: 10px;
+            }
+            .member-social {
+                padding: 20px 0 0;
+                li {
+                    display: inline-block;
+                    margin-right: 5px;
+                    a {
+                        border-radius: 50%;
+                        background-color: #ecfafb;
+                        text-align: center;
+                        display: block;
+                        height: 30px;
+                        width: 30px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+        &:hover {
+            .photo-iframe {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
